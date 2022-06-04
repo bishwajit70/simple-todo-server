@@ -1,6 +1,6 @@
 
 First api: "http://localhost:3000/todos"
-get all todos except usrId
+- returns a list of todos without user id field
 
 Second api: "http://localhost:3000/user/<pass your user id here>"
-get specific user data by id with all todos of that user
+- returns user information along with todo items where userid matches with the one provided in the URL
