@@ -1,0 +1,22 @@
+{
+  "name": "jobtasks",
+  "version": "1.0.0",
+  "description": "This is a simple NodeJs challenge. Here has two apis. One api get all todos except usrId and another is get specific user data by id alongwith all todos of that user",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "type":"module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bishwajit Mondal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.16"
+  }
+}
